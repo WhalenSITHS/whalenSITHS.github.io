@@ -1,0 +1,97 @@
+body{
+  background: -webkit-linear-gradient(110deg, #fdcd3b 60%, #ffed4b 60%);
+  background: -o-linear-gradient(110deg, #fdcd3b 60%, #ffed4b 60%);
+  background: -moz-linear-gradient(110deg, #fdcd3b 60%, #ffed4b 60%);
+  background: linear-gradient(110deg, #fdcd3b 60%, #ffed4b 60%);
+}
+
+.header{
+	text-align: center;
+	font-family: 'Anton', sans-serif;
+
+}
+
+.img_header{
+	
+    margin-left: auto;
+    margin-right: auto;
+   max-height: 200px;
+   max-width: 100%;
+  
+}
+
+.figure_text{
+	margin-left: 25px;
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 1.5em;
+	color: white;
+}
+.jumbo_color{
+	background-image: url("gray.png");
+	background-color: red;
+}
+.arrow {
+margin-top: 90px;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-top: 2px solid white;
+  border-right: 2px solid white;
+  margin-left: 10px;
+
+}
+.arrow-right {
+  transform: rotate(45deg);
+}
+.grass{
+	background: green;
+	border-radius: 20px;
+	display: inline-block;
+	font-size: 14px;
+	 pointer-events: none;
+  cursor: not-allowed;
+}
+.poison{
+	background: purple;
+	border-radius: 20px;
+	display: inline-block;
+	font-size:14px;
+	 pointer-events: none;
+  cursor: not-allowed;
+}
+.water{
+	background: blue;
+	border-radius: 20px;
+	display: inline-block;
+	font-size:16px;
+	 pointer-events: none;
+  cursor: not-allowed;
+}
+.fire{
+	background: red;
+	border-radius: 20px;
+	display: inline-block;
+	font-size:16px;
+	 pointer-events: none;
+  cursor: not-allowed;
+}
+#test :hover{
+opacity: .5;
+
+}
+.jumbo_color2{
+	
+	background-color: red;
+	opacity: ;
+}
+.container{
+	background: white;
+	padding: 10px;
+}
+#blastoise :hover{
+	opacity: .5
+
+}
+.blastoise{
+	background: url(009.png);
+}
